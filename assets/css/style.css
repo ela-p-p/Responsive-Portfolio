@@ -159,6 +159,18 @@ h2, h3 {
     height: 48px;
     text-align: center;
     padding: 15px;
-    /* border-top: 4px solid  #dddddd; */
+    
+}
+
+@media screen and (max-width: 980px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 640px) {
+    
 }
 
