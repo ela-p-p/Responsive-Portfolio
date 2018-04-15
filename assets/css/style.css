@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    background: gray;
+}
+.wrapper {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    min-height: 90vh;
+}
+
+
+h2, h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+}
+
+.header {
+    background: #ffffff;
+    height: 84px;
+    border: 2px solid #cccccc;
+}
+
+.name {
+    background:  #4aaaa5;
+    color: #ffffff;
+    width: 250px;
+    float: left;
+    margin-left: 185px;
+}
+ 
+.nav {
+    color: #4aaaa5;
+    background: #ffffff;
+    border-color: #cccccc;
+    width: 300px;
+    float: right;
+    padding-top: 30px;
+    margin-right: 70px;
+}
+
+.content {
+    background: #ffffff;
+    width: 960px;
+    height: 400px;
+    margin: 50px auto 100px auto;
+    border: 2px solid  #dddddd;
+    padding: 20px;
+    line-height: 1.2em;
+    font-size: 1.1em;        
+}
+
+#image {
+    float: left;
+    padding: 15px 15px 15px 0;
+}
+
+#title {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #dddddd;
+    padding-left: 10px;
+}
+
+.nav_contact {
+    background: #ffffff;
+    border-color: #dddddd;
+    width: 250px;
+    height: 180px;
+    border: 2px solid  #dddddd;
+    float: right;
+    margin: 40px 250px auto auto;
+    padding: 0 15px 15px 15px;
+
+}
+
+#links {
+    text-align: center;
+    padding-left: 5px;
+    padding-top: 20px;
+}
+.with {
+    border-bottom: 3px solid #dddddd;
+    text-align: center;
+    padding: -5px 10px 0px 10px;
+}
+.contact {
+    background: #ffffff;
+    width: 600px;
+    height: 460px;
+    margin: 40px 20px 20px 185px;
+    border: 2px solid  #dddddd;
+    padding: 0 10px 0 10px;
+
+}
+
+.portfolio {
+    width: 860px;
+    height: 900px;
+    background: #ffffff;
+    border: 2px solid  #dddddd;
+    margin: 40px 185px 50px auto;
+    padding: 0px 20px 0px 20px;
+}
+
+#form {
+    padding: 20px;
+    line-break: loose;
+}
+ 
+.box1 {
+    float: left;
+    margin: 20px;
+        
+}
+
+.box2 {
+    float: left;
+    margin: 20px;
+    
+
+}
+
+.box3 {
+    float: left;
+    margin: 20px;
+}
+
+.box4 {
+    margin: 20px;
+    
+} 
+.box5 {
+    margin: 20px;
+}
+.box6 {
+    margin: 20px;
+}
+.box7 {
+    margin: 20px;
+}
+.box8 {
+    margin: 20px;
+}
+.box9 {
+    margin: 20px;
+}
+
+#box-set {
+    padding:40px;
+    margin: 0 auto 0 auto;
+}   
+
+
+#footer {
+    background: #666666;
+    height: 48px;
+    text-align: center;
+    padding: 15px;
+    /* border-top: 4px solid  #dddddd; */
+}
+
