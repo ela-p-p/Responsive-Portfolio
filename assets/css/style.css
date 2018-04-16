@@ -19,7 +19,7 @@ h2, h3 {
 
 .header {
     background: #ffffff;
-    height: 12.8vh;
+    height: 13.5vh;
     border: .1vh solid #cccccc;
 }
 
@@ -35,7 +35,7 @@ h2, h3 {
     color: #4aaaa5;
     background: #ffffff;
     border-color: #cccccc;
-    width: 30vh;
+    width: 35vh;
     float: right;
     padding-top: 5vh;
     margin-right: 10vw;
@@ -80,12 +80,15 @@ h2, h3 {
     text-align: center;
     padding-left: 1vw;
     padding-top: 2vh;
+    margin: 0.5vmin;
 }
+
 .with {
     border-bottom: 0.5vh solid #dddddd;
     text-align: center;
     padding: 0vh 1vw 0vh 1vw;
 }
+
 .contact {
     background: #ffffff;
     width: 42vw;
@@ -93,7 +96,6 @@ h2, h3 {
     margin: 7vh 7vw 20vh 13vw;
     border: 0.5vh solid  #dddddd;
     padding: 0 2vw 0 2vw;
-
 }
 
 .portfolio {
@@ -131,26 +133,32 @@ h2, h3 {
 }
 
 .box4 {
-    margin: 1vmax;    
+    margin: 1vmax;
+    float: left;   
 } 
 
 .box5 {
     margin: 1vmax;
+    float: left;
 }
 .box6 {
     margin: 1vmax;
+    float: left;
 }
 
 .box7 {
     margin: 1vmax;
+    float: left;
 }
 
 .box8 {
     margin: 1vmax;
+    float: left;
 }
 
 .box9 {
     margin: 1vmax;
+    float: left;
 }
 
 #footer {
@@ -158,7 +166,6 @@ h2, h3 {
     height: 8vh;
     text-align: center;
     padding: 1vmax;
-    
 }
 
 @media screen and (max-width: 980px) {
@@ -166,7 +173,55 @@ h2, h3 {
 }
 
 @media screen and (max-width: 768px) {
+.contact {
+    width: 70vw;
+    height: auto;
+}
+.name {
+    margin-left: -2vw;
+    width: 40vw;
+    text-align: center;
+    height: 8vh;
+    padding-bottom: 10vh;
+}
+.header {
+    width: 100vw;
+    margin-left: -2vh;
+    height: 10vh;
+}
+.nav_contact {
 
+    left: 0vw;
+    width: 60vw;
+    border: none;
+    background: transparent;
+    padding-top: 5vh;
+}
+.with {
+    display: none;
+}
+#image {
+    float: none;
+    margin-left: 22vw;
+
+}
+
+.content {
+    width: 90vw;
+    margin-top: 9vh;
+    height: 90vh;
+    font-size: 0.9em;
+}
+.portfolio {
+    width: 88vw;
+    margin-top: 9vh;
+    margin-left: 1vw;
+    height: 150vh;
+}
+#box-set {
+    margin-left: 10vw;
+    margin-top: 1vh;
+}
 }
 
 @media screen and (max-width: 640px) {
@@ -208,25 +263,31 @@ h2, h3 {
     width: 88vw;
     margin-top: 9vh;
     margin-left: 1vw;
-    height: auto;
+    height: 200vh;
 }
 #box-set {
     margin-left: 10vw;
     margin-top: 1vh;
 }
 .nav_contact {
+
+    left: -2vw;
+    width: 60vw;
+    border: none;
+    background: transparent;
+    padding-top: 5vh;
+}
+.with {
     display: none;
 }
+
 .contact {
     width: 100vw;
     margin-top: 9vh;
     margin-left: -5vw;
     height: auto;
-    padding: 0 4vmin 4vmin 4vmin;
+    padding: 0 4vw 2vh 4vw;
+    
 }
-#form {
-    max-width: 100%;
-    height: auto;
 
-}
 }
