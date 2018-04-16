@@ -19,8 +19,8 @@ h2, h3 {
 
 .header {
     background: #ffffff;
-    height: 13vh;
-    border: 2px solid #cccccc;
+    height: 12.8vh;
+    border: .1vh solid #cccccc;
 }
 
 .name {
@@ -37,128 +37,127 @@ h2, h3 {
     border-color: #cccccc;
     width: 30vh;
     float: right;
-    padding-top: 2vh;
+    padding-top: 5vh;
     margin-right: 10vw;
 }
 
 .content {
     background: #ffffff;
     width: 69vw;
-    height: 40vh;
-    margin: 50px auto 100px auto;
-    border: 2px solid  #dddddd;
-    padding: 20px;
+    height: 61vh;
+    margin: 5vh auto 10vh auto;
+    border: 0.5vh solid  #dddddd;
+    padding: 0 1vw 0 1vw;
     line-height: 1.2em;
     font-size: 1.1em;        
 }
 
 #image {
     float: left;
-    padding: 15px 15px 15px 0;
+    padding: 1vmax 1vmax 1vmax 0;
 }
-
+    
 #title {
-    padding-top: 5px;
-    padding-bottom: 10px;
-    border-bottom: 3px solid #dddddd;
-    padding-left: 10px;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    border-bottom: .5vh solid #dddddd;
+    padding-left: 1vw;
 }
 
 .nav_contact {
     background: #ffffff;
     border-color: #dddddd;
-    width: 250px;
-    height: 180px;
+    width: 18vw;
+    height: 25vh;
     border: 2px solid  #dddddd;
     float: right;
-    margin: 40px 250px auto auto;
-    padding: 0 15px 15px 15px;
+    margin: 7vh 15vw auto auto;
+    padding: 0 1vw 1vh 1vw;
 
 }
 
 #links {
     text-align: center;
-    padding-left: 5px;
-    padding-top: 20px;
+    padding-left: 1vw;
+    padding-top: 2vh;
 }
 .with {
-    border-bottom: 3px solid #dddddd;
+    border-bottom: 0.5vh solid #dddddd;
     text-align: center;
-    padding: -5px 10px 0px 10px;
+    padding: 0vh 1vw 0vh 1vw;
 }
 .contact {
     background: #ffffff;
-    width: 600px;
-    height: 460px;
-    margin: 40px 20px 20px 185px;
-    border: 2px solid  #dddddd;
-    padding: 0 10px 0 10px;
+    width: 42vw;
+    height: 80vh;
+    margin: 7vh 7vw 20vh 13vw;
+    border: 0.5vh solid  #dddddd;
+    padding: 0 2vw 0 2vw;
 
 }
 
 .portfolio {
-    width: 860px;
-    height: 900px;
+    width: 56vw;
+    height: 138vh;
     background: #ffffff;
-    border: 2px solid  #dddddd;
-    margin: 40px 185px 50px auto;
-    padding: 0px 20px 0px 20px;
+    border: 0.5vh solid  #dddddd;
+    margin: 3vh 20vw 10vh auto;
+    padding: 1vh 2vw 0px 2vw;
 }
 
 #form {
-    padding: 20px;
+    padding-top: 2vmax;
     line-break: loose;
 }
+
+#box-set {
+    padding: 0.5vmax;
+    margin: 0 auto 0 auto;
+}   
  
 .box1 {
     float: left;
-    margin: 20px;
-        
+    margin: 1vmax;     
 }
 
 .box2 {
     float: left;
-    margin: 20px;
-    
-
+    margin: 1vmax;
 }
 
 .box3 {
     float: left;
-    margin: 20px;
+    margin: 1vmax;
 }
 
 .box4 {
-    margin: 20px;
-    
+    margin: 1vmax;    
 } 
+
 .box5 {
-    margin: 20px;
+    margin: 1vmax;
 }
 .box6 {
-    margin: 20px;
+    margin: 1vmax;
 }
+
 .box7 {
-    margin: 20px;
+    margin: 1vmax;
 }
+
 .box8 {
-    margin: 20px;
+    margin: 1vmax;
 }
+
 .box9 {
-    margin: 20px;
+    margin: 1vmax;
 }
-
-#box-set {
-    padding:40px;
-    margin: 0 auto 0 auto;
-}   
-
 
 #footer {
     background: #666666;
-    height: 48px;
+    height: 8vh;
     text-align: center;
-    padding: 15px;
+    padding: 1vmax;
     
 }
 
@@ -171,10 +170,61 @@ h2, h3 {
 }
 
 @media screen and (max-width: 640px) {
-.header, .name, .nav {
-    position: static;
-     
-    }
+.name {
+    position: absolute;
+    top: -10vh;
+    margin-left: -2vw;
+    width: 100vw;
+    text-align: center;
+    height: 8vh;
+    padding-bottom: 10vh;
+}
+.header {
+    position: relative;
+    top: 6vh;
+    width: 100vw;
+    margin-left: -2vw;
+    height: 7vh;
+}
+
+.nav {
+    padding: 2vh 0 0 0;
+    margin-right: 20vw;
+    
+}
+#image {
+    margin: 0 0 0 25vw;
+    float: none;
 
 }
 
+.content {
+    width: 90vw;
+    margin-top: 9vh;
+    height: 90vh;
+    font-size: 0.9em;
+}
+.portfolio {
+    width: 88vw;
+    margin-top: 9vh;
+    margin-left: 1vw;
+    height: auto;
+}
+#box-set {
+    margin-left: 10vw;
+    margin-top: 1vh;
+}
+.nav_contact {
+    display: none;
+}
+.contact {
+    width: 100vw;
+    margin-top: 9vh;
+    margin-left: -5vw;
+    height: auto;
+    padding: 0 4vmin 4vmin 4vmin;
+}
+#form {
+    margin-right: auto;
+}
+}
