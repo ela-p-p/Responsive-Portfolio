@@ -174,15 +174,16 @@ h2, h3 {
 
 @media screen and (max-width: 768px) {
 .contact {
-    width: 70vw;
+    width: 80vw;
     height: auto;
 }
 .name {
     margin-left: -2vw;
     width: 40vw;
     text-align: center;
-    height: 8vh;
+    height: 5vh;
     padding-bottom: 10vh;
+    padding-top:0vh;
 }
 .header {
     width: 100vw;
@@ -192,7 +193,7 @@ h2, h3 {
 .nav_contact {
 
     left: 0vw;
-    width: 60vw;
+    width: 80vw;
     border: none;
     background: transparent;
     padding-top: 5vh;
@@ -233,6 +234,7 @@ h2, h3 {
     text-align: center;
     height: 8vh;
     padding-bottom: 10vh;
+    padding-top: 1vh;
 }
 .header {
     position: relative;
